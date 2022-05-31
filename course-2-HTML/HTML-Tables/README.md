@@ -2,7 +2,6 @@
 
 Can you know what's wrong with the following table?
 
-    <code>
     <table>
         <tr>
             <td>John</td>
@@ -15,7 +14,6 @@ Can you know what's wrong with the following table?
             <th>City</th>
         </tr>
     </table>
-    </code>
 
 - Can you fix it and write the fixed version in the index.html file?
 
