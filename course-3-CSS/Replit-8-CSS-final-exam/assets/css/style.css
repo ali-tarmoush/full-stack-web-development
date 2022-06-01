@@ -1,0 +1,143 @@
+@charset "UTF-8";
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --color-primary: #3db4b7;
+  --color-secondary: #f7f7f7;
+  --color-p: #9d9a9b;
+}
+html {
+  direction: rtl;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-secondary);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  margin: 10px 3%;
+}
+.content-main {
+  margin-bottom: 50px;
+}
+h1 {
+  font-size: 50px;
+}
+p {
+  color: var(--color-p);
+}
+.reg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  color: var(--white);
+  background-color: var(--color-primary);
+  border-radius: 5px;
+  text-decoration: none;
+}
+.content {
+  margin-bottom: 10px;
+  margin-right: 50px;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+.content-son {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  margin: 10px 0 0 0;
+  padding: 0;
+  height: 100px;
+}
+h2 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.content-son p {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  font-size: 18;
+}
+.gb {
+  margin-right: 200px;
+}
+form {
+  padding: 20px;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  background-color: var(--white);
+  border-radius: 5px;
+}
+form h2 {
+  margin-bottom: 30px;
+}
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+form img {
+  width: 50px;
+  height: 50px;
+  border: solid 1px var(--color-p);
+}
+.input-container {
+  display: -ms-flexbox; 
+  display: flex;
+  width: 100%;
+}
+.icon {
+  padding: 10px;
+  min-width: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.input-field {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  outline: none;
+  margin-bottom: 15px;
+  border: solid 1px var(--color-p);
+}
+.input-checkbox {
+  margin-bottom: 20px;
+  color: var(--color-p);
+}
+.rem-pas{
+  float: left;
+  color: var(--color-p);
+  text-decoration: none;
+}
+/* Set a style for the submit button */
+.btn {
+  background-color: var(--color-primary);
+  color: var(--white);
+  padding: 15px 20px;
+  border: none;
+  width: 100%;
+  font-size: 18px;
+}
+/* Write your code here */

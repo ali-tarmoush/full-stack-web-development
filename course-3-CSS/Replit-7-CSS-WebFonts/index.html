@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS WebFonts</title>
+    <style>
+        /* group selector */
+        label {
+            /* color RGB  */
+            /* The color CSS property sets the foreground color value of an element's text and text decorations */
+            color: rgb(61, 61, 61);
+        }
+
+        /* class selector */
+        .myText {
+            /* color Hexadecimal  */
+            border: solid 1px #c0c0c0;
+            color: #fff;
+            /* The background-color CSS property sets the background color of an element. */
+            background-color: #3d3d3d;
+        }
+
+        /* id selector */
+        #sub {
+            /* color name */
+            color: black;
+            background-color: red;
+            border: 5px solid red;
+        }
+
+        /* Background for the body element */
+        body {
+            /* The background-size CSS property sets the size of the element's background image.  */
+            background-size: 100%;
+            /* The background-image CSS property sets one or more background images on an element. */
+            background-image: url("https://is.gd/86sXve");
+            /* The background-repeat CSS property sets how background images are repeated. */
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            /* The position CSS property sets how an element is positioned in a document. 
+            The top, right, bottom, and left properties determine the final location of positioned elements. */
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            /* The transform CSS property lets you rotate, scale, skew, or translate an element.  */
+            transform: translate(-50%, -50%);
+        }
+
+        /* Background for the form element */
+        form {
+            /* CSS Flexible Box Layout is a module of CSS that defines a CSS box model optimized for user interface design, and the layout of items in one dimension. 
+            In the flex layout model, the children of a flex container can be laid out in any direction, 
+            and can “flex” their sizes, either growing to fill unused space or shrinking to avoid overflowing the parent. 
+            Both horizontal and vertical alignment of the children can be easily manipulated. */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* the form's width and height. */
+            width: 378px;
+            height: 300px;
+            background-image: url("https://is.gd/UfqPnX");
+            background-repeat: no-repeat;
+            /* The border shorthand CSS property sets an element's border. */
+            border: solid 1px #fff;
+            /* Font Family sans-serif */
+            font-family: Arial, sans-serif;
+        }
+
+        form * {
+            /* The margin-bottom CSS property sets the margin area on the bottom of an element. */
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <label for="user">Username:</label>
+            <input class="myText" type="text" id="user" name="text"><br>
+            <label for="pas">Password: </label>
+            <input class="myText" type="password" id="pas" name="password"><br>
+            <input type="submit" id="sub" value="Enter">
+        </form>
+    </div>
+</body>
+
+</html>
