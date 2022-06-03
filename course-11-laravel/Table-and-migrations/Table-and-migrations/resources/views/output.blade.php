@@ -62,7 +62,20 @@
   <div class=content>
     <div class="card">
       <h1>Your input was received as</h1>
+      <table>
+        <tr>
+          <th>ID</th>
+          <th>Timestamps</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Price</th>
+        </tr>
+      </table>
       {{$in_search}}
+
+      @foreach ($row as $key => $value)
+      @if ($value == $in_search)
+      @foreach ($row as $key => $value)
     </div>
   </div>
 </body>

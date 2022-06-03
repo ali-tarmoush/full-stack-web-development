@@ -103,7 +103,7 @@
     <div class=content>
         <div class="card">
             <h1>Welcome to our Store</h1>
-            <form id="form_search" action="{{url('/search')}}">
+            <form id="form_search" action="/search">
                 @csrf
                 <label for="in_search" class="sr-only">Search</label>
                 <input type="search" id="input_search" name="in_search" placeholder="Search...">

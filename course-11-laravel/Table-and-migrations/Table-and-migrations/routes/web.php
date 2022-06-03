@@ -17,4 +17,5 @@ use App\Http\Controllers\searchController;
 Route::get('/', function () {
     return view('dashboard');
 });
+
 Route::get('/search', [searchController::class, 'search'])->name('in_search');
