@@ -1,6 +1,6 @@
-# Programming 102
+# Programming 103
 
-Course 5 of the Full Stack Web Development Program
+Course 6 of the Full Stack Web Development Program
 Offered by Edraak
 
 # My grades
